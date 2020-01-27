@@ -16,19 +16,19 @@ body {
     justify-content: flex-end;
 }
 
-.col-6 h1 {
-    position: absolute;
-    left: -80px;
-    font-size: 400%;
-    bottom: 420px;
+h1 {
+    font-size: 70px;
+    text-align: right;
+    margin-top: 50%;
     word-spacing: 30px;
     letter-spacing: 7px;
+
   }
 
-.col-6 h2 {
+h2 {
     position: absolute;
-    font-size: 400%;
-    bottom: 420px;
+    font-size: 60px;
+    bottom: 345px;
     word-spacing: 30px;
     letter-spacing: 7px;
 }
@@ -41,10 +41,8 @@ h2 {
     left: 0px;
 }
 
-.col-6 p {
-    position: absolute;
+ .none-display-p {
     text-align: right;
-    bottom: 270px;
 }
 
 .collapse li a {
@@ -185,23 +183,26 @@ h1, h2, h3, h4 {
 }
 
 
-@media (max-width: 576px) {
-    h1, h2 {
-        width: 50%;
-        font-size: 15px;
-        bottom: 0px;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(0%, -50%)
 
-    }
-}
 
 @media (max-width: 576px) {
     h1 {
-        left: 0;
+        font-size: 30px;
+        bottom: auto;
+        margin-top: 50%;
+        right: auto;
     }
 }
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 25px;
+        bottom: auto;
+        margin-top: 50%;
+        left: auto;
+    }
+}
+
 
 
 
