@@ -25,13 +25,21 @@ h1 {
 
   }
 
-h2 {
+.position-absolute {
     position: absolute;
     font-size: 60px;
     bottom: 345px;
     word-spacing: 30px;
     letter-spacing: 7px;
 }
+
+/* H2 EN OTRAS SECCIONES*/
+.non-absolute {
+    font-size: 50px;
+    word-spacing: 30px;
+    letter-spacing: 7px;
+}
+
 
 p {
     top: 50%;
