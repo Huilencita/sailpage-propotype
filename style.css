@@ -22,8 +22,13 @@ h1 {
     margin-top: 50%;
     word-spacing: 30px;
     letter-spacing: 7px;
-
   }
+
+.non-absolute {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
 
 .position-absolute {
     position: absolute;
@@ -80,8 +85,12 @@ p {
     font-style: italic;
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
     font-family: 'Coda', cursive;
+}
+
+.none-display-p {
+	font-family: 'Coda', cursive;
 }
 
 .col-lg-5 img {
